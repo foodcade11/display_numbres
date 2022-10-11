@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mycolor"
+        android:textColor="@color/white"
+        android:layout_marginTop="25dp"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:id="@+id/addition"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mycolor"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:id="@+id/subtruction"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mycolor"
+        android:textColor="@color/white"
+        android:layout_marginTop="170dp"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:id="@+id/multiply"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mycolor"
+        android:textColor="@color/white"
+        android:layout_marginTop="240dp"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:id="@+id/devition"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mycolor"
+        android:textColor="@color/white"
+        android:layout_marginTop="310dp"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:id="@+id/reminder"
+        android:gravity="center"
+
+        />
+
+</RelativeLayout>
